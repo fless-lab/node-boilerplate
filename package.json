@@ -6,8 +6,8 @@
     "mongoose": "^8.4.1",
     "nodemailer": "^6.9.13"
   },
-  "name": "kleanic-backend",
-  "description": "Backend for kleanic app",
+  "name": "node-boilerplate",
+  "description": "A boilerplate for your nodejs app",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fless-lab/kleanic-backend.git"
+    "url": "git+https://github.com/fless-lab/node-boilerplate.git"
   },
   "keywords": [
     "backend",
@@ -38,9 +38,9 @@
   "author": "Abdou-Raouf ATARMLA",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fless-lab/kleanic-backend/issues"
+    "url": "https://github.com/fless-lab/node-boilerplate/issues"
   },
-  "homepage": "https://github.com/fless-lab/kleanic-backend#readme",
+  "homepage": "https://github.com/fless-lab/node-boilerplate#readme",
   "engines": {
     "node": ">=18"
   }
