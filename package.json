@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "minio": "^8.0.0",
+    "mongoose": "^8.4.1",
+    "nodemailer": "^6.9.13"
+  },
+  "name": "kleanic-backend",
+  "description": "Backend for kleanic app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fless-lab/kleanic-backend.git"
+  },
+  "keywords": [
+    "backend",
+    "kleanic"
+  ],
+  "author": "Abdou-Raouf ATARMLA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fless-lab/kleanic-backend/issues"
+  },
+  "homepage": "https://github.com/fless-lab/kleanic-backend#readme"
+}
