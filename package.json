@@ -10,8 +10,21 @@
   "description": "Backend for kleanic app",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "nodemon": "^3.1.3"
+  },
   "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint .",
+    "lint-staged": "lint-staged",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/fless-lab/kleanic-backend/issues"
   },
-  "homepage": "https://github.com/fless-lab/kleanic-backend#readme"
+  "homepage": "https://github.com/fless-lab/kleanic-backend#readme",
+  "engines": {
+    "node": ">=18"
+  }
 }
