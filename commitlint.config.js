@@ -25,7 +25,7 @@ module.exports = {
       {
         rules: {
           'header-match-team-pattern': (parsed) => {
-            const { type, scope, subject } = parsed;
+            const { type, subject } = parsed;
             const allowedTypes = [
               'build',
               'chore',
